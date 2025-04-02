@@ -16,6 +16,17 @@
   font-family: var(--font-geist-sans);
 }
 
+
+.fullPageImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: scale-down;
+  z-index: -1;
+}
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;

@@ -26,7 +26,7 @@ export default function Home() {
       {/* Full-page background image */}
       <Image
         className={styles.fullPageImage}
-        src="/background.png" // Change this to your image
+        src="/bg.gif" // Change this to your image
         alt="Background"
         layout="fill"
         priority
